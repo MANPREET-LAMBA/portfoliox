@@ -23,25 +23,27 @@
     #page2-container {
         height: 45vh;
     }
-#bubble
-{
-    bottom: 36%;
-    display: flex;
-    justify-content: space-evenly;
-}
-#bubble img
-{
-    width: 90px;
-    height: 90px;
-}
-@keyframes bubbles {
-    
-    100%{
-        transform: translateY(51vh);
-        opacity: 0;
+
+    #bubble {
+        bottom: 36%;
+        display: flex;
+        justify-content: space-evenly;
     }
 
-}
+    #bubble img {
+        width: 90px;
+        height: 90px;
+    }
+
+    @keyframes bubbles {
+
+        100% {
+            transform: translateY(51vh);
+            opacity: 0;
+        }
+
+    }
+
     #java {
         width: 30%;
     }
@@ -74,60 +76,67 @@
     #page2-container {
         height: 48vh;
     }
+
     #bubble {
         width: 100%;
         bottom: 46%;
     }
-    #bubble img
-{
-    width: 50px;
-    height: 50px;
-}
-@keyframes bubbles {
-    
-    100%{
-        transform: translateY(53vh);
-        opacity: 0;
+
+    #bubble img {
+        width: 50px;
+        height: 50px;
     }
 
-}
-#mysql
-{
-    width: 40%;
-}
+    @keyframes bubbles {
+
+        100% {
+            transform: translateY(53vh);
+            opacity: 0;
+        }
+
+    }
+
+    #mysql {
+        width: 40%;
+    }
 }
 
 @media(max-width:480px) {
+    #corsur {
+        display: none;
+    }
+
     #nav {
         display: grid;
         grid-template-columns: 50px 50px;
         justify-content: space-between;
     }
-    #nav-iteam{
+
+    #nav-iteam {
         display: none;
 
     }
-    #linkedin
-    {
+
+    #linkedin {
         display: none;
     }
-    #menu
-    {
+
+    #menu {
         display: flex;
         justify-content: flex-end;
     }
-    #menu img
-    {
+
+    #menu img {
         width: 25px;
 
-    height: 25px;
+        height: 25px;
     }
 
 
-    #bubble
-    {
+    #bubble {
         display: none;
     }
+
     #page1 {
         height: 95vh;
         display: flex;
@@ -147,7 +156,7 @@
     #top-img img {
         padding-top: 35px;
         width: 90%;
-        height: 50vh;
+        height: 43vh;
     }
 
     #text-1 {
@@ -163,23 +172,25 @@
     #page2-container {
         height: 55vh;
     }
+
     #bubble {
         bottom: 46%;
     }
-    #bubble img
-{
-    width: 85px;
-    height: 85px;
-}
 
-@keyframes bubbles {
-    
-    100%{
-        transform: translateY(53vh);
-        opacity: 0;
+    #bubble img {
+        width: 85px;
+        height: 85px;
     }
 
-}
+    @keyframes bubbles {
+
+        100% {
+            transform: translateY(53vh);
+            opacity: 0;
+        }
+
+    }
+
     #page2-box {
         MARGIN: 0% 8%;
         width: 100%;
@@ -189,8 +200,7 @@
         padding: 0% 2%;
     }
 
-    #page-3 h1
-    {
+    #page-3 h1 {
         font-size: 40px;
     }
 
@@ -203,63 +213,74 @@
     }
 
     #mysql img {
-        
+
         height: 90%;
     }
 
     #css img {
-        
+
         height: 90%;
     }
-    #java
-    {
+
+    #java {
         width: 60%;
     }
+
     #java img {
-       
+
         height: 95%;
     }
-    #cc img
-    {
-       height: 90%;
+
+    #cc img {
+        height: 90%;
     }
-    #php img
-    {
+
+    #php img {
         height: 100%;
     }
-    #react
-    {
+
+    #react {
         height: 90%;
     }
-    #html img
-    {
+
+    #html img {
         height: 90%;
     }
-    #footer
-    {
+
+    #footer {
         flex-direction: column;
         gap: 20px;
     }
 
-    #footer h5
-    {
+    #footer h5 {
         font-size: 20px;
     }
-    #footer-text p{
+
+    #footer-text p {
         text-align: center;
     }
 
 
 }
+
 @media (max-width:396px) {
-   
+
+    #page1
+    {
+        height: auto;
+        padding-bottom: 80px;
+    }
     #text-1 {
         padding-top: 4%;
         display: flex;
         height: fit-content;
     }
-    #btn
-    {       
+    #text-1 h1
+    {
+        font-size: 44px;
+    }
+
+    #btn {
         height: 5vh;
         display: flex;
 
@@ -271,15 +292,15 @@
     }
 
     #page2-container {
-        height: 66vh;
+        height: 84vh;
+        border: 1px solid black;
     }
 
     #pge2-text p {
         padding: 0% 7%;
     }
-    
-    #page-3 h1
-    {
+
+    #page-3 h1 {
         font-size: 40px;
     }
 
@@ -292,36 +313,37 @@
     }
 
     #mysql img {
-        
+
         height: 90%;
     }
 
     #css img {
-        
+
         height: 90%;
     }
-    #java
-    {
+
+    #java {
         width: 60%;
     }
+
     #java img {
-       
+
         height: 95%;
     }
-    #cc img
-    {
-       height: 90%;
-    }
-    #php img
-    {
-        height: 100%;
-    }
-    #react
-    {
+
+    #cc img {
         height: 90%;
     }
-    #html img
-    {
+
+    #php img {
+        height: 100%;
+    }
+
+    #react {
+        height: 90%;
+    }
+
+    #html img {
         height: 90%;
     }
 }
@@ -329,6 +351,8 @@
 @media(max-width:377px) {
     #page2-container {
         height: 70vh;
+       
+
     }
 
     #top-img img {
@@ -357,8 +381,7 @@
     }
 
 
-    #page-3 h1
-    {
+    #page-3 h1 {
         font-size: 35px;
     }
 
@@ -371,36 +394,37 @@
     }
 
     #mysql img {
-        
+
         height: 90%;
     }
 
     #css img {
-        
+
         height: 90%;
     }
-    #java
-    {
+
+    #java {
         width: 60%;
     }
+
     #java img {
-       
+
         height: 95%;
     }
-    #cc img
-    {
-       height: 90%;
-    }
-    #php img
-    {
-        height: 100%;
-    }
-    #react
-    {
+
+    #cc img {
         height: 90%;
     }
-    #html img
-    {
+
+    #php img {
+        height: 100%;
+    }
+
+    #react {
+        height: 90%;
+    }
+
+    #html img {
         height: 90%;
     }
 }
