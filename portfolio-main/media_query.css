@@ -1,0 +1,406 @@
+@media screen and (max-width:1024px) {
+    #page1 {
+        height: 60vh;
+        padding: 0% 8%;
+    }
+
+    #text-1 h1 {
+        font-size: 46px;
+    }
+
+    #nav {
+        padding: 0% 8%;
+    }
+
+    #text-1 p {
+        font-size: 15px;
+    }
+
+    #skills {
+        gap: 27px;
+    }
+
+    #page2-container {
+        height: 45vh;
+    }
+#bubble
+{
+    bottom: 36%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#bubble img
+{
+    width: 90px;
+    height: 90px;
+}
+@keyframes bubbles {
+    
+    100%{
+        transform: translateY(51vh);
+        opacity: 0;
+    }
+
+}
+    #java {
+        width: 30%;
+    }
+
+    #php {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #page1 {
+        height: 50vh;
+    }
+
+    #img-page1 img {
+
+        height: 78%;
+    }
+
+    #page2 h1 {
+        font-size: 38px;
+        margin-top: 22PX;
+
+    }
+
+    #page2-text p {
+        line-height: 16px;
+    }
+
+    #page2-container {
+        height: 48vh;
+    }
+    #bubble {
+        width: 100%;
+        bottom: 46%;
+    }
+    #bubble img
+{
+    width: 50px;
+    height: 50px;
+}
+@keyframes bubbles {
+    
+    100%{
+        transform: translateY(53vh);
+        opacity: 0;
+    }
+
+}
+#mysql
+{
+    width: 40%;
+}
+}
+
+@media(max-width:480px) {
+    #nav {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        justify-content: space-between;
+    }
+    #nav-iteam{
+        display: none;
+
+    }
+    #linkedin
+    {
+        display: none;
+    }
+    #menu
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #menu img
+    {
+        width: 25px;
+
+    height: 25px;
+    }
+
+
+    #bubble
+    {
+        display: none;
+    }
+    #page1 {
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-page1 {
+        display: none;
+    }
+
+    #top-img {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #top-img img {
+        padding-top: 35px;
+        width: 90%;
+        height: 50vh;
+    }
+
+    #text-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    #text-1 h1,
+    p {
+        text-align: center;
+    }
+
+    #page2-container {
+        height: 55vh;
+    }
+    #bubble {
+        bottom: 46%;
+    }
+    #bubble img
+{
+    width: 85px;
+    height: 85px;
+}
+
+@keyframes bubbles {
+    
+    100%{
+        transform: translateY(53vh);
+        opacity: 0;
+    }
+
+}
+    #page2-box {
+        MARGIN: 0% 8%;
+        width: 100%;
+    }
+
+    #pge2-text p {
+        padding: 0% 2%;
+    }
+
+    #page-3 h1
+    {
+        font-size: 40px;
+    }
+
+    .style {
+        height: 8vh;
+    }
+
+    #mysql {
+        width: 35%;
+    }
+
+    #mysql img {
+        
+        height: 90%;
+    }
+
+    #css img {
+        
+        height: 90%;
+    }
+    #java
+    {
+        width: 60%;
+    }
+    #java img {
+       
+        height: 95%;
+    }
+    #cc img
+    {
+       height: 90%;
+    }
+    #php img
+    {
+        height: 100%;
+    }
+    #react
+    {
+        height: 90%;
+    }
+    #html img
+    {
+        height: 90%;
+    }
+    #footer
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #footer h5
+    {
+        font-size: 20px;
+    }
+    #footer-text p{
+        text-align: center;
+    }
+
+
+}
+@media (max-width:396px) {
+   
+    #text-1 {
+        padding-top: 4%;
+        display: flex;
+        height: fit-content;
+    }
+    #btn
+    {       
+        height: 5vh;
+        display: flex;
+
+    }
+
+    #btn button {
+        margin-top: 10px;
+
+    }
+
+    #page2-container {
+        height: 66vh;
+    }
+
+    #pge2-text p {
+        padding: 0% 7%;
+    }
+    
+    #page-3 h1
+    {
+        font-size: 40px;
+    }
+
+    .style {
+        height: 8vh;
+    }
+
+    #mysql {
+        width: 35%;
+    }
+
+    #mysql img {
+        
+        height: 90%;
+    }
+
+    #css img {
+        
+        height: 90%;
+    }
+    #java
+    {
+        width: 60%;
+    }
+    #java img {
+       
+        height: 95%;
+    }
+    #cc img
+    {
+       height: 90%;
+    }
+    #php img
+    {
+        height: 100%;
+    }
+    #react
+    {
+        height: 90%;
+    }
+    #html img
+    {
+        height: 90%;
+    }
+}
+
+@media(max-width:377px) {
+    #page2-container {
+        height: 70vh;
+    }
+
+    #top-img img {
+        width: 83%;
+        height: 46vh;
+    }
+
+    #text-1 h1 {
+
+        font-size: 40px;
+
+    }
+
+    #text-1 p {
+        font-size: 13px;
+
+
+    }
+
+    #page2 p {
+        font-size: 12px;
+    }
+
+    #page2 h1 {
+        font-size: 25px;
+    }
+
+
+    #page-3 h1
+    {
+        font-size: 35px;
+    }
+
+    .style {
+        height: 8vh;
+    }
+
+    #mysql {
+        width: 35%;
+    }
+
+    #mysql img {
+        
+        height: 90%;
+    }
+
+    #css img {
+        
+        height: 90%;
+    }
+    #java
+    {
+        width: 60%;
+    }
+    #java img {
+       
+        height: 95%;
+    }
+    #cc img
+    {
+       height: 90%;
+    }
+    #php img
+    {
+        height: 100%;
+    }
+    #react
+    {
+        height: 90%;
+    }
+    #html img
+    {
+        height: 90%;
+    }
+}
