@@ -1,5 +1,5 @@
-# portfoliox
+# portfoliox<br>
 #personal Portfolio website using:- <br>
-#-> html
-#-> css
+#-> html<br>
+#-> css<br>
 #-> vanila javascript
